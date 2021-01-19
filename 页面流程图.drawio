@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T03:53:14.902Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0" etag="D6BYsgCPEiUnr_5tajcK" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T03:59:59.996Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0" etag="oyQCWnnT0ZSnZmQF3HYn" version="14.2.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="3445" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,95 +295,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-52" value="全球死亡统计" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-470" y="920" width="270" height="328" as="geometry" />
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-72" value="各国死亡率" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="200" y="920" width="270" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-53" value="+ field(轮播图): &lt;br&gt;1. 各国死亡率【带按钮可跳转】&lt;br&gt;1. 各国产妇死亡率【带按钮可跳转】&lt;br&gt;1. 各国死亡率【带按钮可跳转】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="26" width="270" height="84" as="geometry" />
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-73" value="+ text: 解释说明 “死亡率”计算方法&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
+          <mxGeometry y="26" width="270" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-54" value="+ text: 原创文字引语" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="110" width="270" height="26" as="geometry" />
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-75" value="+ field(按钮): 跳转-&amp;gt;可视化图表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-55" value="+ field(按钮): 跳转-&amp;gt;各国死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="136" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-56" value="+ field(按钮): 跳转-&amp;gt;各国产妇死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="162" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-57" value="+ field(按钮): 跳转-&amp;gt;各国婴儿死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="188" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-58" value="+ field(外链): 数据来源-&amp;gt;CIA官网&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="214" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-59" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="240" width="270" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-60" value="+ method(数据来源): 爬虫-&amp;gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;美国中央情报局CIA官方网站&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="248" width="270" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-61" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-52">
-          <mxGeometry y="302" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-62" value="全球死亡统计" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-125" y="920" width="270" height="328" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-63" value="+ field(轮播图): &lt;br&gt;1. 各国死亡率【带按钮可跳转】&lt;br&gt;1. 各国产妇死亡率【带按钮可跳转】&lt;br&gt;1. 各国死亡率【带按钮可跳转】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="26" width="270" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-64" value="+ text: 原创文字引语" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="110" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-65" value="+ field(按钮): 跳转-&amp;gt;各国死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="136" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-66" value="+ field(按钮): 跳转-&amp;gt;各国产妇死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="162" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-67" value="+ field(按钮): 跳转-&amp;gt;各国婴儿死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="188" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-68" value="+ field(外链): 数据来源-&amp;gt;CIA官网&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="214" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-69" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="240" width="270" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-70" value="+ method(数据来源): 爬虫-&amp;gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;美国中央情报局CIA官方网站&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="248" width="270" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-71" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-62">
-          <mxGeometry y="302" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-72" value="全球死亡统计" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="200" y="920" width="270" height="328" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-73" value="+ field(轮播图): &lt;br&gt;1. 各国死亡率【带按钮可跳转】&lt;br&gt;1. 各国产妇死亡率【带按钮可跳转】&lt;br&gt;1. 各国死亡率【带按钮可跳转】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="26" width="270" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-74" value="+ text: 原创文字引语" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="110" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-75" value="+ field(按钮): 跳转-&amp;gt;各国死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="136" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-76" value="+ field(按钮): 跳转-&amp;gt;各国产妇死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="162" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-77" value="+ field(按钮): 跳转-&amp;gt;各国婴儿死亡率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="188" width="270" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-78" value="+ field(外链): 数据来源-&amp;gt;CIA官网&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="214" width="270" height="26" as="geometry" />
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-76" value="+ field: 各国数据信息及排名比较" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WasqcAeqAVTy0zBTdF0t-79" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="240" width="270" height="8" as="geometry" />
+          <mxGeometry y="112" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="WasqcAeqAVTy0zBTdF0t-80" value="+ method(数据来源): 爬虫-&amp;gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;美国中央情报局CIA官方网站&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="248" width="270" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-81" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-72">
-          <mxGeometry y="302" width="270" height="26" as="geometry" />
+          <mxGeometry y="120" width="270" height="54" as="geometry" />
         </mxCell>
         <mxCell id="WasqcAeqAVTy0zBTdF0t-84" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=1;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-49" target="78961159f06e98e8-82">
           <mxGeometry relative="1" as="geometry">
@@ -407,20 +335,74 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-88" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=1;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WasqcAeqAVTy0zBTdF0t-49" target="WasqcAeqAVTy0zBTdF0t-52">
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-88" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=1;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WasqcAeqAVTy0zBTdF0t-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="191.33333333333337" as="sourcePoint" />
-            <mxPoint x="750" y="191.33333333333337" as="targetPoint" />
+            <mxPoint x="-335" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WasqcAeqAVTy0zBTdF0t-89" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=1;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.444;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="78961159f06e98e8-86" target="WasqcAeqAVTy0zBTdF0t-62">
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-89" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=1;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.444;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="78961159f06e98e8-86">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="657" as="sourcePoint" />
-            <mxPoint x="20" y="930" as="targetPoint" />
+            <mxPoint x="-5.119999999999891" y="914.0959999999998" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-5" y="673" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-90" value="各国产妇死亡率" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-130" y="920" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-91" value="+ text: 解释说明 “死亡率”计算方法&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-90">
+          <mxGeometry y="26" width="270" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-92" value="+ field(按钮): 跳转-&amp;gt;可视化图表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-90">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-93" value="+ field: 各国数据信息及排名比较" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-90">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-94" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-90">
+          <mxGeometry y="112" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-95" value="+ method(数据来源): 爬虫-&amp;gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;美国中央情报局CIA官方网站&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-90">
+          <mxGeometry y="120" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-96" value="各国婴儿死亡率" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-470" y="920" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-97" value="+ text: 解释说明 “死亡率”计算方法&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-96">
+          <mxGeometry y="26" width="270" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-98" value="+ field(按钮): 跳转-&amp;gt;可视化图表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-96">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-99" value="+ field: 各国数据信息及排名比较" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-96">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-100" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-96">
+          <mxGeometry y="112" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-101" value="+ method(数据来源): 爬虫-&amp;gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;美国中央情报局CIA官方网站&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-96">
+          <mxGeometry y="120" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-102" value="可视化图表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1210" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-103" value="+ text: 解释说明 “死亡率”计算方法&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-102">
+          <mxGeometry y="26" width="270" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-104" value="+ field(按钮): 跳转-&amp;gt;可视化图表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-102">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-105" value="+ field: 各国数据信息及排名比较" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-102">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-106" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-102">
+          <mxGeometry y="112" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WasqcAeqAVTy0zBTdF0t-107" value="+ method(数据来源): 爬虫-&amp;gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;美国中央情报局CIA官方网站&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-102">
+          <mxGeometry y="120" width="270" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
