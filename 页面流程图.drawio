@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T04:34:34.356Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0" etag="piSXh4R9ganr1TCc4BFa" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T04:57:13.847Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0" etag="41dUC2K3WTDOM_fk9_Gt" version="14.2.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2440" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2663" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-30" value="登录页" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="430" y="83" width="200" height="257" as="geometry" />
+          <mxGeometry x="430" y="83" width="200" height="257" as="geometry">
+            <mxRectangle x="430" y="83" width="70" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="78961159f06e98e8-31" value="+ field: 用户输入账户" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -156,14 +158,13 @@
         <mxCell id="78961159f06e98e8-126" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=1;startSize=8;endArrow=none;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;" parent="1" source="78961159f06e98e8-108" target="WasqcAeqAVTy0zBTdF0t-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1000" y="430" />
-              <mxPoint x="1030" y="430" />
-              <mxPoint x="1030" y="226" />
+              <mxPoint x="1020" y="528" />
+              <mxPoint x="1020" y="226" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="78961159f06e98e8-108" value="答案之书/提问页" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="960" y="459.99999999999983" width="200" height="156" as="geometry" />
+          <mxGeometry x="1050" y="482" width="200" height="156" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-109" value="+ field: 用户输入问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-108" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -180,7 +181,7 @@
         <mxCell id="78961159f06e98e8-120" value="+ method(样式): 个人编写kalyn.css" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-108" vertex="1">
           <mxGeometry y="130" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-121" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=diamondThin;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;" parent="1" source="78961159f06e98e8-17" target="78961159f06e98e8-30" edge="1">
+        <mxCell id="78961159f06e98e8-121" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=1;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;" parent="1" source="78961159f06e98e8-17" target="78961159f06e98e8-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="259.88235294117635" as="sourcePoint" />
           </mxGeometry>
@@ -191,13 +192,13 @@
             <mxPoint x="230" y="50" as="targetPoint" />
             <Array as="points">
               <mxPoint x="680" y="148" />
-              <mxPoint x="680" y="20" />
-              <mxPoint x="195" y="20" />
+              <mxPoint x="680" y="30" />
+              <mxPoint x="195" y="30" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WasqcAeqAVTy0zBTdF0t-5" value="日志页" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="1110" y="70" width="200" height="150" as="geometry" />
+          <mxGeometry x="1120" y="83" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="WasqcAeqAVTy0zBTdF0t-6" value="+ field: 表格记录访问数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WasqcAeqAVTy0zBTdF0t-5">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -217,11 +218,11 @@
         <mxCell id="WasqcAeqAVTy0zBTdF0t-17" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=1;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-44" target="WasqcAeqAVTy0zBTdF0t-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="191.33333333333337" as="sourcePoint" />
-            <mxPoint x="750" y="191.33333333333337" as="targetPoint" />
+            <mxPoint x="1190" y="-10" as="targetPoint" />
             <Array as="points">
               <mxPoint x="930" y="122" />
-              <mxPoint x="930" y="40" />
-              <mxPoint x="1190" y="40" />
+              <mxPoint x="930" y="20" />
+              <mxPoint x="1220" y="20" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -260,8 +261,9 @@
             <mxPoint x="640" y="192" as="sourcePoint" />
             <mxPoint x="1190" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1210" y="525" />
-              <mxPoint x="1210" y="860" />
+              <mxPoint x="1250" y="525" />
+              <mxPoint x="1300" y="525" />
+              <mxPoint x="1300" y="860" />
               <mxPoint x="1150" y="860" />
             </Array>
           </mxGeometry>
